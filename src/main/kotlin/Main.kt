@@ -7,7 +7,7 @@ suspend fun main() {
     val api = StockApi()
     val stocks = api.getStocks()
     for (stock in stocks) {
-        println("${stock.ticker} - ${stock.price}")
+        println("${stock}")
     }
 
 //    val json = Json {ignoreUnknownKeys = true}
